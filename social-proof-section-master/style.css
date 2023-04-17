@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
 
 * {
     margin: 0;
@@ -6,12 +8,91 @@
 
 }
 
+html {
+    font-family: 'League Spartan';
+}
+
+body {
+    line-height: 1.2;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 4em;
+    color: hsl(301, 45%, 22%);
+}
+
+section .section1 p {
+    color: hsl(301, 45%, 22%);
+    gap:50%;
+}
 .presentation {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin-right: 30%;
+    margin-bottom: 2%;
 
 }
 
-.rated
+.section1 {
+    display: flex;
+    align-items: center;
+}
 
+.section2 {
+    display: flex;
+}
+
+.section2 img {
+    border-radius: 5em;
+}
+
+.rated {
+    color: hsl(301, 45%, 22%);
+    background-color: hsl(303, 10%, 53%);
+    border-radius: 0.2em;
+    margin-bottom: 1em;
+}
+
+.bloc2 {
+    margin-left: 2em;
+}
+
+.bloc3 {
+    margin-left: 4em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 2em;
+    color: white;
+    background-color: hsl(301, 45%, 22%);
+    border-radius: 0.3em;
+}
+
+.decal1 {
+    margin-top: 1em;
+}
+
+.decal2 {
+    margin-top: 2em;
+}
+
+.inner-card {
+    padding:2em 2em 0 2em;
+}
+
+.section2 p {
+    padding: 2em 2em ;
+}
+
+h3 {
+    color: hsl(303, 10%, 53%);
+}
 
 .attribution {
     font-size: 11px;
