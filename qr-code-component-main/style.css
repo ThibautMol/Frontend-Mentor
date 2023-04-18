@@ -8,20 +8,24 @@
 
 body {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit';
-    padding-top: 30%;
-    padding-bottom: 30%;
+    min-height: 100vh;
+   
 }
 
-main {
+.card {
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
     width: 450px;
     border-radius: 2em;
+    text-align: center;
+}
+
+main {
     text-align: center;
 }
 
